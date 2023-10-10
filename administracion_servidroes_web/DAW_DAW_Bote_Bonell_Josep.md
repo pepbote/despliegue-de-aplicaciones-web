@@ -98,7 +98,14 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
   ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/7d808280-7cb4-46ca-8b88-2279a62c01aa)
 
 - Monitorización en tiempo real: Utiliza herramientas como tail -f para monitorear en tiempo real los accesos a tu servidor web y posibles errores.
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/324fdf53-0972-48da-a37e-d389fc9ab3d5)
+
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/e3d14341-9e8b-4a34-bf95-4d74156fbfa9)
+
 - Análisis de logs: Instala y usa herramientas como goaccess para analizar y obtener estadísticas visuales a partir de tus logs de Apache2.
+
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/e27d8c01-562b-4575-a1ca-fb463edd09f8)
+
 
 # Ejercicio 8
 
