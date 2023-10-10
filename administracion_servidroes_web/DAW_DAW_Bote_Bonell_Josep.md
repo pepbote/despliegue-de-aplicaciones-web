@@ -1,19 +1,22 @@
-# Exercici 1
+# Ejercicio 1
 Instale en una máquina virtual un sistema operativo con base Linux (se recomienda Debian o Ubuntu) e instale apache2.
 
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/39c20703-019b-4d9a-9fd3-1a0e825efd2f)
 
-# Exercici 2
+
+# Ejercicio 2
 Explique con sus palabras que es una petición GET, POST, PUT y DELETE, remarcando sus diferencias. 
 
-# Exercici 3
+
+# Ejercicio 3
 Cambie del puerto 80 al puerto 4444 el servidor apache2. Muestra desde el navegador su funcionamiento adjuntando una captura de pantalla. 
 
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/74a1bd75-2703-4c01-aa6b-439a87d1396b)
 
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/be42b463-e386-412a-a359-a6c8819ed54e)
 
-# Exercici 4
+
+# Ejercicio 4
 Instale un certificado SSL y configure su Apache para servir contenido a través de HTTPS en el puerto 4444. Muestre desde el navegador cómo se muestra el sitio web como "seguro" (aunque sea un certificado autofirmado).
 
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/e8f56110-9c37-4963-90d2-980c93262fe8)
@@ -24,7 +27,8 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
 
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/2e965e0b-f049-420c-8d6e-78bcced7de02)
 
-# Exercici 5
+
+# Ejercicio 5
 ¿Dónde se encuentran los ficheros de configuración de Apache2?
 - Ubicación principal.
     - /etc/apache2
@@ -50,5 +54,34 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
           - Contiene todalas las opciones de módulos disponibles.
      3. mods-enabled:
           - Contiene los módulos específicos que has activado para que Apache los utilize.
-# Exercici 6
-# Exercici 7
+
+            
+# Ejercicio 6
+- Ubicación principal
+- 
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/5976300e-d391-42f2-aacc-0c0aea52eec5)
+
+- Control del servicio: Utiliza el binario de ejecución para iniciar, detener, recargar y reiniciar el servidor Apache2 explicando la diferencia entre cada uno de los comandos utilizados.
+    - start: inicia el servidor si no está en ejecución
+    - stop: detiene el servidor y lo apaga
+    - reload: recarga la configuración sin detener el servidor
+    - restart: detiene e inicia el servidor, se suele usar para reiniciar el servidor y aplicar cambios importantes en la configuración
+      
+- Comprobación de sintaxis: Usa el binario de Apache para verificar la sintaxis de tu configuración. Esto es útil para asegurarse de que no haya errores antes de reiniciar el servidor.
+
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/89a60122-4401-49bb-917f-bcac3224ef8b)
+
+
+# Ejercicio 7
+¿Dónde se encuentran los ficheros de monitorización de Apache2?
+- Ubicación principal
+
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/87fd42c9-166f-40e4-846d-989122ed6e8e)
+
+- error.log y access.log: Explica la diferencia entre estos dos archivos. Abre y revisa las entradas recientes en cada uno de ellos.
+- Rotación de logs: Investiga cómo funciona la rotación de logs en Apache2. ¿Por qué es importante? ¿Cómo se configura?
+- Monitorización en tiempo real: Utiliza herramientas como tail -f para monitorear en tiempo real los accesos a tu servidor web y posibles errores.
+- Análisis de logs: Instala y usa herramientas como goaccess para analizar y obtener estadísticas visuales a partir de tus logs de Apache2.
+
+# Ejercicio 8
+
