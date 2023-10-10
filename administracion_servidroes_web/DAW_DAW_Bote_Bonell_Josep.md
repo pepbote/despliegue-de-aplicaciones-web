@@ -46,6 +46,9 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
      - Habilita los sitios web mediante enlaces simbólicos, esto permite gestionar facilmente múltiples configuraciones de sistios web sin necesidad de modificar los archivos de Apache. 
     
 - mods-available y mods-enabled: Explica la diferencia entre estos dos directorios.
-
+     1. mods-available:
+          - Contiene todalas las opciones de módulos disponibles.
+     3. mods-enabled:
+          - Contiene los módulos específicos que has activado para que Apache los utilize.
 # Exercici 6
 # Exercici 7
