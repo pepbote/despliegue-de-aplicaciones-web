@@ -40,7 +40,11 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
   8. Directivas para la carga de módulos: Aqui se pueden habilitar módulos adicionales de Apache
 
 - sites-available y sites-enabled: Explica la diferencia entre estos dos directorios y cómo funcionan juntos.
-  
+  1. Sites-available:
+     - Es donde se guardan la configuración de todos los sitios web están disponibles, pero solo los que han sido habilitados mediante enlaces en sites-enabled. 
+  2. Sites-enabled:
+     - Habilita los sitios web mediante enlaces simbólicos, esto permite gestionar facilmente múltiples configuraciones de sistios web sin necesidad de modificar los archivos de Apache. 
+    
 - mods-available y mods-enabled: Explica la diferencia entre estos dos directorios.
 
 # Exercici 6
