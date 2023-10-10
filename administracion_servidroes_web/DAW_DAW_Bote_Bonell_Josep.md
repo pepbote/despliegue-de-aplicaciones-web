@@ -106,6 +106,9 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
 
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/e27d8c01-562b-4575-a1ca-fb463edd09f8)
 
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/6bda0d06-ce3d-4ab8-bf8d-ced571392850)
+
+
 
 # Ejercicio 8
 
