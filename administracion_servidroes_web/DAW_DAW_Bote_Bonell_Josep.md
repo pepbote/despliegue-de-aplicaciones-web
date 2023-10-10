@@ -136,11 +136,16 @@ Explica el funcionamiento del protocolo HTTP con tus palabras.
 para reescribir URL o restringir el acceso a ciertas partes de su sitio web.
 
 Es un archivo de configuración en servidores web Apache. Se puede utilizar para modificar la coonfiguración del servidor y aplicar directivas específicas a directorios o archivos. 
+
 Por ejemplo para reescribir url se podría hacer así:
+    
     RewriteEngine On
     RewriteRule ^pagina/([0-9]+)/?$ pagina.php?id=$1 [NC,L]
-Esto reescribe la URL "tusitio.com/pagina/123" internamente como "tusitio.com/pagina.php?id=123".
+
+Esto reescribe la URL "tusitio.com/pagina/123" internamente como "tusitio.com/pagina.php?id=123":
+
 También se puede restringir el acceso:
+    
     Order Deny,Allow
     Deny from all
     Allow from 10.0.2.15
