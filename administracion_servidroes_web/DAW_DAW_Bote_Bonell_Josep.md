@@ -6,7 +6,10 @@ Instale en una máquina virtual un sistema operativo con base Linux (se recomien
 
 # Ejercicio 2
 Explique con sus palabras que es una petición GET, POST, PUT y DELETE, remarcando sus diferencias. 
-
+    - GET para obtener un recurso del servidor
+    - POST para crear un recurso del servidor   
+    - PUT para actualizar un recurso del servidor
+    - DELETE para eliminar un recurso del servidor
 
 # Ejercicio 3
 Cambie del puerto 80 al puerto 4444 el servidor apache2. Muestra desde el navegador su funcionamiento adjuntando una captura de pantalla. 
