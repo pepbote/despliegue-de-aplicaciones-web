@@ -79,7 +79,23 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/87fd42c9-166f-40e4-846d-989122ed6e8e)
 
 - error.log y access.log: Explica la diferencia entre estos dos archivos. Abre y revisa las entradas recientes en cada uno de ellos.
+    - error.log: se usa para registrar los errores y advertencias relacionadas con el funcionamineto del servidor
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/36bee408-82a0-45c4-834c-b075b9c0ea4d)
+
+    - access.log: se usa para registrar las solicitudes web exitosas
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/c2719d3e-fe4d-458e-85cb-e2680165e982)
+
 - Rotación de logs: Investiga cómo funciona la rotación de logs en Apache2. ¿Por qué es importante? ¿Cómo se configura?
+  La rotación de logs funciona de la siguiente manera:
+      1. Renombra archivos de registro antiguos
+      2. Crea un nuevo archivo de registro
+      3. Comprime archivos antiguos
+      4. Mantiene registros más manejables y ahorra espacio en disco
+      5. Se configura en /etc/logrotate.d/apache2
+  Es importante para conservar espacio en el disco, también facilita ala gestión y ánalisis de registros y mantiene un historial de registros
+
+  ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/7d808280-7cb4-46ca-8b88-2279a62c01aa)
+
 - Monitorización en tiempo real: Utiliza herramientas como tail -f para monitorear en tiempo real los accesos a tu servidor web y posibles errores.
 - Análisis de logs: Instala y usa herramientas como goaccess para analizar y obtener estadísticas visuales a partir de tus logs de Apache2.
 
