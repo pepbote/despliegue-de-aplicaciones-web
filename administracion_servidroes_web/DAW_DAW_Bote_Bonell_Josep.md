@@ -86,12 +86,13 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/c2719d3e-fe4d-458e-85cb-e2680165e982)
 
 - Rotación de logs: Investiga cómo funciona la rotación de logs en Apache2. ¿Por qué es importante? ¿Cómo se configura?
+  
   La rotación de logs funciona de la siguiente manera:
-      1. Renombra archivos de registro antiguos
-      2. Crea un nuevo archivo de registro
-      3. Comprime archivos antiguos
-      4. Mantiene registros más manejables y ahorra espacio en disco
-      5. Se configura en /etc/logrotate.d/apache2
+    1. Renombra archivos de registro antiguos
+    2. Crea un nuevo archivo de registro
+    3. Comprime archivos antiguos
+    4. Mantiene registros más manejables y ahorra espacio en disco
+    5. Se configura en /etc/logrotate.d/apache2
   Es importante para conservar espacio en el disco, también facilita ala gestión y ánalisis de registros y mantiene un historial de registros
 
   ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/7d808280-7cb4-46ca-8b88-2279a62c01aa)
