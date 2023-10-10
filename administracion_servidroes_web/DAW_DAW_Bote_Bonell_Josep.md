@@ -25,5 +25,23 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/2e965e0b-f049-420c-8d6e-78bcced7de02)
 
 # Exercici 5
-# Exercici 6 
+¿Dónde se encuentran los ficheros de configuración de Apache2?
+- Ubicación principal.
+    - /etc/apache2
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/41f4b2f7-54da-401c-a54d-f38b0d02ceeb)
+
+- Explora el archivo apache2.conf. Identifica las secciones principales y describe su propósito.
+  1. ServerRoot: Establece la ubicación raíz de Apache2
+  3. User y Group: Establecen los usuarios y los grupos donde se ejecutará el servidor Apache
+  4. Timeout: Define el tiempo máximo que Apache esperará para recibir una solicitud del cliente antes de cerrar la conexión
+  5. KeepAlive: Habilita o deshabilita el uso de conexiones Keep-Alive, que varia la velocidad de carga de las paginas web
+  6. ServerTokens: Controla la información de las cabeceras http y de las páginas de error generadas por Apache
+  7. PidFile: Especifica la ubicación del archivo que almacena el PID del servidor principal de Apache
+  8. Directivas para la carga de módulos: Aqui se pueden habilitar módulos adicionales de Apache
+
+- sites-available y sites-enabled: Explica la diferencia entre estos dos directorios y cómo funcionan juntos.
+  
+- mods-available y mods-enabled: Explica la diferencia entre estos dos directorios.
+
+# Exercici 6
 # Exercici 7
