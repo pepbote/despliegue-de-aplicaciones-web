@@ -111,4 +111,36 @@ Instale un certificado SSL y configure su Apache para servir contenido a través
 
 
 # Ejercicio 8
+¿Qué es un Firewall? ¿Para qué sirve? ¿Por qué es necesario? Instale y configure un Firewall en la máquina virtual para que solo permita tráfico HTTP y HTTPS. Bloquee todo el resto de los puertos y demuestre su funcionamiento.
 
+- Es una barrera de seguridad que controla el flujo de datos entre una red y mundo exterior. Define reglas para permitir o bloquear el tráfico, protegiendo contra amenazas cibernéticas y accesos no autorizados. Es muy importante para mantener la seguridad de los sistemas.
+
+ ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/992e984e-625a-4627-b193-d4a18aa8b194)
+ 
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/d64b32e3-5e7e-4869-afd6-8cea77ec576c)
+
+![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/5ab38e56-2920-446e-9c54-d454d240c379)
+
+# Ejercicio 9
+Explica con tus palabras las diferentes partes de una URL.
+
+- Una URL se compone de un protocolo (como "https://"), un nombre de dominio que señala el servidor ("www.google.com"), y una ruta que indica la ubicación del recurso ("/pagina/directorio/"). Ocasionalmente, pueden agregarse parámetros y fragmentos para detalles adicionales o secciones específicas del recurso.
+
+# Ejercicio 10
+Explica el funcionamiento del protocolo HTTP con tus palabras.
+
+- El protocolo de transferencia de hipertexto facilita ala comunicación entre navegadores y servidores web, cuando envías una solicitud http al servidor, responde enviando los datos de la página para que puedas verla en tu navegador.
+
+# Ejercicio 11
+¿Qué es un archivo .htaccess? Proporcione un ejemplo de cómo se puede utilizar
+para reescribir URL o restringir el acceso a ciertas partes de su sitio web.
+
+Es un archivo de configuración en servidores web Apache. Se puede utilizar para modificar la coonfiguración del servidor y aplicar directivas específicas a directorios o archivos. 
+Por ejemplo para reescribir url se podría hacer así:
+    RewriteEngine On
+    RewriteRule ^pagina/([0-9]+)/?$ pagina.php?id=$1 [NC,L]
+Esto reescribe la URL "tusitio.com/pagina/123" internamente como "tusitio.com/pagina.php?id=123".
+También se puede restringir el acceso:
+    Order Deny,Allow
+    Deny from all
+    Allow from 10.0.2.15
