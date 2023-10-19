@@ -35,9 +35,6 @@ Prueba de acceder poniendo www. delante de tu URL actual.
 
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/1bcbebd2-60d7-4dcb-9454-0dca15c99ba4)
 
-
-![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/07aa2918-1849-47b7-89f4-c919b91e9192)
-
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/6282cfdd-95c4-46d8-95d2-a1fd5410596f)
 
 # Ejercicio 5
