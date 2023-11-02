@@ -1,6 +1,8 @@
 # Ejercicio 1
 Añade en tu servidor el módulo mod_info y explique para que se utiliza este plugin.
 
+*mod_info* es un módulo de Apache que proporciona información detallada sobre la configuración del servidor y el estado actual.
+
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/d73ebdb9-0759-4566-8fcc-f28aae738574)
 
 
