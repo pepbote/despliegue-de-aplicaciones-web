@@ -27,5 +27,3 @@ En esta actividad debemos poner en el ./daw/index.html el nombre de la clase y e
     nano /var/www/jboteb/style.css
 
 ![image](https://github.com/pepbote/despliegue-de-aplicaciones-web/assets/144775358/0b09af70-4250-4eae-a395-6c124c88b28b)
-
-
